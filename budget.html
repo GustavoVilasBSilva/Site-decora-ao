@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicite seu orçamento - AnnyBelle Decorações</title>
+    <meta name="description" content="AnnyBelle Decorações com ótimos preços e qualidade, solicite seu orçamento e faça um sonho se tornar realidade.">
+
+    
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+      
+</head>
+<body>
+    <header>
+        <div class="header">
+            <figure>
+                <img width="140px" src="./Imagens/Logo.png" alt="Logo AnnyBelle Decorações">
+            </figure>
+            <nav>
+                <ul  class="menu-main">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">Sobre Nós</a></li>
+                    <li><a href="./gallery.html">Galeria</a></li>
+                    <li><span><a  class="actived"  href="#">Orçamento</a></li></span>
+                </ul>
+            </nav>
+        </div>        
+    </header>
+    <main class="main-form">
+        <h1>Solicite seu orçamento preenchendo o formulario a baixo</h1>
+        <form class="container-form">
+            <div class="grid-item1">
+                <label for="name">Nome *</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu Nome">
+                <span id="span-name">Digite seu nome</span>
+            </div>
+            <div class="grid-item2">
+                <label for="surname">Sobrenome *</label>
+                <input type="text" name="surname" id="surname" placeholder="Digite seu Sobrenome">
+                <span id="span-surname">Digite seu sobrenome</span>
+            </div>
+            <div class="grid-item3">
+                <label for="email">E-mail *</label>
+                <input type="email" name="email" id="email" placeholder="fulano@exemple.com">
+                <span id="span-email">E-mail não informado</span>
+            </div>
+            <div class="grid-item4">
+                <label for="fone">Telefone *</label>
+                <input type="text" name="fone" id="fone" placeholder="(xx) xxxxx-xxxx">
+                <span id="span-fone">Informe seu telefone de contato</span>
+            </div>
+            <div class="grid-item5">
+                <label for="date">Data do evento</label>
+                <input type="date" name="date" id="">
+            </div>
+            <div class="grid-item6">
+                <label for="service">Serviço</label>
+                <input type="text" name="service" id="" placeholder="Ex: Casamento, aniversario, kit festa... ">
+            </div>
+            <div class="grid-item7">
+                <label for="theme">Tema escolhido</label>
+                <input type="text" name="theme" id=""  placeholder="Ex: Carros, Anos 60, Festa em Paris... ">
+            </div>
+            <div class="grid-item8">
+                <label for="message">Observação</label>
+                <textarea name="message" id=""  placeholder="Não é obrigatório"></textarea>
+            </div>
+            <div class="grid-item9">
+                <a class="btn" onclick="sent()">Enviar</a>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="contact">
+                <h4>AnnyBelle Decorações</h4>
+                <span class="whats-app">(15) 99661-2972</span>
+                <span class="instagram">@annybelle.decoracoes </span>
+                <span class="e-mail">annybelle@gmail.com</span>               
+                <span class="location">Rua: Olimpio Ruivo, 195 - CDHU-1 - Nova Campina - SP</span>
+            </div>
+            <nav class="container-menu">
+                <ul class="footer-menu">
+                   <li><a href="./index.html">Home</a></li>
+                   <li><a href="./about.html">Sobre Nós</a></li>
+                   <li><a href="./gallery.html">Galeria</a></li>
+                   <li><a class="actived" href="./budget.html">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="copy">
+                <p>&copy; Copyright AnnyBelle Decorações</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js" ></script>
+</body>
+</html>    
